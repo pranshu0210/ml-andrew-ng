@@ -79,6 +79,8 @@ X = [ones(m, 1) X];
 % Hint: At prediction, make sure you do the same feature normalization.
 %
 
+
+
 fprintf('Running gradient descent ...\n');
 
 % Choose some alpha value
