@@ -85,7 +85,7 @@ Theta2_grad = zeros(size(Theta2));
 	
 	z3 = a2 * Theta2'; %intermediate product 2
 	a3 = sigmoid(z3);
-
+	size(a3)
 %	Finally calculating cost
 
 	Cost = -new_y * log(a3)' - (1 - new_y) * (log(1 - a3)');
